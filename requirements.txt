@@ -1,0 +1,5 @@
+# google_iot_core_gw requirements
+-r src/google_iot_core_gateway/requirements.txt
+paho-mqtt==1.5.0
+pyinstaller==4.4
+

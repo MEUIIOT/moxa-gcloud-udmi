@@ -1,0 +1,38 @@
+{
+    
+    "internal_broker": {
+        "mqtt_bridge_hostname": "Moxa",
+        "mqtt_bridge_port": 1883,
+        "enable_tls": false,
+        "trusted_root_ca": "./resources/certs/ca.crt",
+        "x509_certificate": null,
+        "private_key": null
+
+    },
+    "google_cloud": {
+        "project_id": "your-clearblade-project-id",
+        "sample_rate_set": 5,
+        "mqtt_bridge_hostname": "your-mqtt-hostname",
+        "mqtt_bridge_port": 8883
+    },
+    "site_details": {
+        "gateway_id": "CGW-1",
+        "proxy_ids": {
+            "EM-1": {
+                "type": "PM5561",
+                "modbus_slave_id": 1
+            },
+            "EM-2": {
+                "type": "PM5111",
+                "modbus_slave_id": 2
+            },
+            "EM-3": {
+                "type": "PM8240",
+                "modbus_slave_id": 3
+            }
+        }
+    },
+    "environment_setup": {
+        "udmi_site_model_path": "/home/moxa/moxa-gcloud-udmi/udmi_site_model"
+    }
+}
