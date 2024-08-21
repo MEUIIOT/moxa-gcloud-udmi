@@ -1,0 +1,226 @@
+{
+    "system": {
+        "117": {
+            "dbo_name": "serial_no",
+            "number_of_registers": 12,
+            "format": "str40",
+            "units": "No-units"
+        },
+        "1717": {
+            "dbo_name": "firmware_version",
+            "number_of_registers": 6,
+            "format": "str40",
+            "units": "No-units"
+        },
+        "70": {
+            "dbo_name": "manufacturer_name",
+            "number_of_registers": 20,
+            "format": "str40",
+            "units": "No-units"
+        },
+        "50": {
+            "dbo_name": "model_name",
+            "number_of_registers": 20,
+            "format": "str40",
+            "units": "No-units"
+        },
+        "30": {
+            "dbo_name": "product_name",
+            "number_of_registers": 20,
+            "format": "str40",
+            "units": "No-units"
+        }
+    },
+    "3028": {
+        "dbo_name": "line1_neutral_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3030": {
+        "dbo_name": "line2_neutral_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3032": {
+        "dbo_name": "line3_neutral_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3036": {
+        "dbo_name": "average_line_neutral_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3020": {
+        "dbo_name": "line1_line2_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3022": {
+        "dbo_name": "line2_line3_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3024": {
+        "dbo_name": "line1_line3_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3026": {
+        "dbo_name": "average_line_line_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volts"
+    },
+    "3000": {
+        "dbo_name": "line1_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Amperes"
+    },
+    "3002": {
+        "dbo_name": "line2_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Amperes"
+    },
+    "3004": {
+        "dbo_name": "line3_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Amperes"
+    },
+    "3010": {
+        "dbo_name": "average_line_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Amperes"
+    },
+    "3006": {
+        "dbo_name": "neutral_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Amperes"
+    },
+    "3054": {
+        "dbo_name": "line1_neutral_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Watts"
+    },
+    "3056": {
+        "dbo_name": "line2_neutral_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Watts"
+    },
+    "3058": {
+        "dbo_name": "line3_neutral_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Watts"
+    },
+    "3060": {
+        "dbo_name": "total_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Watts"
+    },
+    "3070": {
+        "dbo_name": "line1_neutral_apparent_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes"
+    },
+    "3072": {
+        "dbo_name": "line2_neutral_apparent_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes"
+    },
+    "3074": {
+        "dbo_name": "line3_neutral_apparent_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes"
+    },
+    "3076": {
+        "dbo_name": "total_apparent_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes"
+    },
+    "3062": {
+        "dbo_name": "line1_neutral_reactive_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes-reactive"
+    },
+    "3064": {
+        "dbo_name": "line2_neutral_reactive_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes-reactive"
+    },
+    "3066": {
+        "dbo_name": "line3_neutral_reactive_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes-reactive"
+    },
+    "3068": {
+        "dbo_name": "total_reactive_power_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Volt-amperes-reactive"
+    },
+    "3144": {
+        "dbo_name": "line1_neutral_powerfactor_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "No-units"
+    },
+    "3146": {
+        "dbo_name": "line2_neutral_powerfactor_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "No-units"
+    },
+    "3148": {
+        "dbo_name": "line3_neutral_powerfactor_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "No-units"
+    },
+    "3150": {
+        "dbo_name": "total_powerfactor_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "No-units"
+    },
+    "3216": {
+        "dbo_name": "total_energy_accumulator",
+        "number_of_registers": 4,
+        "format": "int64",
+        "units": "Watt-hours"
+    },
+    "3232": {
+        "dbo_name": "total_reactive_energy_accumulator",
+        "number_of_registers": 4,
+        "format": "int64",
+        "units": "Volt-amperes-reactive-hours"
+    },
+    "3110": {
+        "dbo_name": "frequency_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Hertz"
+    }
+}
