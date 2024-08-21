@@ -1,0 +1,24 @@
+{
+  "system": {
+    "location": {
+      "site": "UDMI-ONNEC",
+      "section": ""
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "guid://a8159395-2d69-4480-8252-8b678f6813da",
+        "site": "UDMI-ONNEC",
+        "name": "TEST-1"
+      }
+    }
+  },
+  "gateway": {
+    "proxy_ids": [ "EM-1", "EM-2", "EM-3" ]
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "version": 1,
+  "timestamp": "2020-05-01T13:39:07Z",
+  "hash": "f8995442"
+}

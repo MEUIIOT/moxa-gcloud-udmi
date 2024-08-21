@@ -1,0 +1,132 @@
+{
+  "pointset": {
+    "points": {
+      "line1_neutral_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line2_neutral_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line3_neutral_voltage_sensor": {
+          "units": "Volts"
+      },
+      "average_line_neutral_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line1_line2_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line2_line3_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line1_line3_voltage_sensor": {
+          "units": "Volts"
+      },
+      "average_line_line_voltage_sensor": {
+          "units": "Volts"
+      },
+      "line1_current_sensor": {
+          "units": "Amperes"
+      },
+      "line2_current_sensor": {
+          "units": "Amperes"
+      },
+      "line3_current_sensor": {
+          "units": "Amperes"
+      },
+      "average_line_current_sensor": {
+          "units": "Amperes"
+      },
+      "neutral_current_sensor": {
+          "units": "Amperes"
+      },
+      "line1_neutral_power_sensor": {
+          "units": "Kilowatts"
+      },
+      "line2_neutral_power_sensor": {
+          "units": "Kilowatts"
+      },
+      "line3_neutral_power_sensor": {
+          "units": "Kilowatts"
+      },
+      "total_power_sensor": {
+          "units": "Kilowatts"
+      },
+      "line1_neutral_apparent_power_sensor": {
+          "units": "Kilo-volt-amperes"
+      },
+      "line2_neutral_apparent_power_sensor": {
+          "units": "Kilo-volt-amperes"
+      },
+      "line3_neutral_apparent_power_sensor": {
+          "units": "Kilo-volt-amperes"
+      },
+      "total_apparent_power_sensor": {
+          "units": "Kilo-volt-amperes"
+      },
+      "line1_neutral_reactive_power_sensor": {
+          "units": "Kilo-volt-amperes-reactive"
+      },
+      "line2_neutral_reactive_power_sensor": {
+          "units": "Kilo-volt-amperes-reactive"
+      },
+      "line3_neutral_reactive_power_sensor": {
+          "units": "Kilo-volt-amperes-reactive"
+      },
+      "total_reactive_power_sensor": {
+          "units": "Kilo-volt-amperes-reactive"
+      },
+      "line1_neutral_powerfactor_sensor": {
+          "units": "No-units"
+      },
+      "line2_neutral_powerfactor_sensor": {
+          "units": "No-units"
+      },
+      "line3_neutral_powerfactor_sensor": {
+          "units": "No-units"
+      },
+      "total_powerfactor_sensor": {
+          "units": "No-units"
+      },
+      "total_energy_accumulator": {
+          "units": "Watt-hours"
+      },
+      "total_reactive_energy_accumulator": {
+          "units": "Volt-amperes-reactive-hours"
+      },
+      "frequency_sensor": {
+          "units": "Hertz"
+      }
+    }
+  },
+  "system": {
+    "location": {
+      "site": "UDMI-ONNEC",
+      "section": "2-3N8C",
+      "position": {
+        "x": -111.0,
+        "y": 102.3
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "guid//0757e4fc-dc8f-4cbe-9471-19336531f608",
+        "site": "UDMI-ONNEC",
+        "name": "EM-1"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "CGW-1"
+  },
+  "localnet": {
+    "subsystem": {
+      "bacnet": {
+        "local_id": "0x65"
+      }
+    }
+  },
+  "version": 1,
+  "timestamp": "2020-05-01T13:39:07Z",
+  "hash": "da852d15"
+}

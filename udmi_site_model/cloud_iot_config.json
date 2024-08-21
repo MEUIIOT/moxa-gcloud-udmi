@@ -1,0 +1,17 @@
+{
+  "cloud_region": "your-cloud-region",
+  "site_name": "your-site-name",
+  "registry_id": "your-registry-id",
+  "reflector_endpoint": {
+    "client_id": "projects/your-project/locations/your-region/registries/your-reflect-registry/devices/your-device-id",
+    "hostname": "your-mqtt-hostname"
+  },
+  "device_endpoint": {
+    "client_id": "projects/your-project/locations/your-region/registries/your-registry/devices/your-device-id",
+    "hostname": "your-mqtt-hostname"
+  },
+  "project_id": "your-project-id",
+  "serial_no": "your-serial-no",
+  "site_model": "your-site-model-path",
+  "device_id": "your-device-id"
+}
