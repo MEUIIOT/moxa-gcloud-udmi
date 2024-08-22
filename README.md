@@ -30,8 +30,9 @@ moxa-gcloud-udmi/
 ├── docs/                     # Documentation files
 │   └──                       # Any project relevent document files goes here
 ├── src/                      # Source code for the project
-│   ├── cloud_connector/       # Code for connecting to Google Cloud
-│   └── udmi_handler/          # Code for handling UDMI protocols
+|   └── main.py               # Main entry file 
+│   ├── google_iot_core_gateway/            # Google IoT Core/ClearBlade module
+│       └── internal_broker_subscriber/     # Code for subscribing raw rtu request and response from internal mosquitto broker
 ├── resources/                 # Configuration files
 │   └── config-google-gateway.json   # Example configuration file
 |   └── modbus_dbo_maps              # Example schneider meter definition files
