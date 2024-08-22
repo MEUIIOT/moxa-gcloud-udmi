@@ -48,3 +48,22 @@ moxa-gcloud-udmi/
 ├── LICENSE                               # Project license
 ├── README.md                             # Project readme (this file)
 └── CONTRIBUTING.md                       # Guidelines for contributing to the project
+```
+
+## Installation
+To set up the project locally, follow these steps:
+### Preconditions
+1. Python version 3.9 - abel to run with `python3.9` command
+2. Git
+3. pyinstaller
+4. pip
+
+### Clone the repository:
+```bash
+sudo git clone https://github.com/MEUIIOT/moxa-gcloud-udmi.git
+cd moxa-gcloud-udmi
+```
+### Install required `pip` packages
+```bash
+sudo pip3.9 install -r src/google_iot_core_gateway/requirements.txt
+```
