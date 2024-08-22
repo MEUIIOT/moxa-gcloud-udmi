@@ -27,18 +27,24 @@ The **Moxa GCloud UDMI Integration** project provides an interface between Moxa'
 ```plaintext
 moxa-gcloud-udmi/
 │
-├── docs/                     # Documentation files
-│   └──                       # Any project relevent document files goes here
-├── src/                      # Source code for the project
-|   └── main.py               # Main entry file 
-│   ├── google_iot_core_gateway/            # Google IoT Core/ClearBlade module
-│       └── internal_broker_subscriber/     # Code for subscribing raw rtu request and response from internal mosquitto broker
-├── resources/                 # Configuration files
-│   └── config-google-gateway.json   # Example configuration file
-|   └── modbus_dbo_maps              # Example schneider meter definition files
-├── udmi_site_model/              # Configuration files
-│   └── cloud_iot_config.json     # Example UDMI project configuration file
-|   └── devices               # Example Gateway (Parent) and Devices (Child) UDMI metadata files 
-├── LICENSE                   # Project license
-├── README.md                 # Project readme (this file)
-└── CONTRIBUTING.md           # Guidelines for contributing to the project
+├── docs/                                 # Documentation files
+│   └──                                   # Any project relevent document files goes here
+├── src/                                  # Source code for the project
+|   └── main.py                           # Main entry file 
+│   ├── google_iot_core_gateway/          # Google IoT Core/ClearBlade module
+│       └── internal_broker_subscriber/   # Code for subscribing raw rtu request and response from internal mosquitto broker
+│       └── modbus_gw/                    # Code for decoding raw rtu request/response as per Schneider meter definition file
+│       └── udmi_handler/                 # Code for udmi mapping for modbus to dbo names and constructing payload pointset and state
+│       └── utils/                        # Code for Google IoT Core authentication and Configuration handlers
+│       └── gcp_manager.py                # Code for create registry, devices and gateway on the Google Iot Core.
+│       └── gcp_publisher.py              # Code for connecting and publishing telemetry to the Google Iot Core using paho mqtt library
+│       └── gcp_handler.py                # Code for starting the google IoT Core function and other initialization task. This file is called in main.py 
+├── resources/                            # Resource dir for configuration
+│   └── config-google-gateway.json        # Example configuration file google clear blade IoT core
+|   └── modbus_dbo_maps                   # Example schneider meter definition files e.g PM5111
+├── udmi_site_model/                      # Resource dir for UDMI site models 
+│   └── cloud_iot_config.json             # Example UDMI project configuration file
+|   └── devices                           # Example meta data files Gateway CGW-1 and Devices EM-1, EM-2 
+├── LICENSE                               # Project license
+├── README.md                             # Project readme (this file)
+└── CONTRIBUTING.md                       # Guidelines for contributing to the project
