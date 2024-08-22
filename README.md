@@ -124,6 +124,12 @@ Modify the configuration files
 ## Usage
 After installation and configuration, you can run the project as follows:
 
-Running the connector:
-
-
+### Running the connector:
+```bash
+cd /home/moxa/moxa-gcloud-udmi
+sudo python3.9 src/main.py
+```
+By default code run in debug mode. To suppress debug information run code with -v3 argument 
+```bash
+sudo python3.9 src/main.py -v3
+```
