@@ -9,8 +9,8 @@
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Configuration](#configuration)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,3 +67,63 @@ cd moxa-gcloud-udmi
 ```bash
 sudo pip3.9 install -r src/google_iot_core_gateway/requirements.txt
 ```
+
+## Configuration
+Modify the configuration files
+
+1. Edit the `resources/config-google-gateway.json` file
+2. Edit the `resources/modbus_dbo_maps/*.json` file that converts the Modbus registry to DBO names
+3. Edit the `udmi_site_model/cloud_iot_config.json` file
+4. Edit the gateway `/udmi_site_model/devices/CGW-1/metadata.json` file
+5. Generate Private/Public key pair example using openssl. Put the `private key` /udmi_site_model/devices/CGW-1/rsa_private.pem. Upload `public key` rsa_pubic.pem to your gcCLoud IoTEdge device gateway e.g CGW-1
+6. Edit the devices `/udmi_site_model/devices/EM-1/metadata.json` file
+
+### Example
+```
+# For gateway e.g CGW-1 modify the following properties according to your cloud enviornment
+  and child devices connected to it
+
+  Note: guid must be different for gateway as well as devices 
+        which can be created from command line tool
+
+{
+  "system": {
+    "location": {
+      "site": "KGX-1",
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "guid://a8159395-2d69-4480-8252-8b678f6813da",
+        "site": "KGX-1",
+        "name": "CGW-1"
+      }
+    }
+  },
+  "gateway": {
+    "proxy_ids": [ "EM-1", "EM-2" ]
+
+
+# For devices e.g EM-1 modify the following properties according to your cloud enviornment
+
+  "system": {
+    "location": {
+      "site": "KGX-1",
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "guid//0757e4fc-dc8f-4cbe-9471-19336531f608",
+        "site": "KGX-1",
+        "name": "EM-E"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "CGW-1"
+  }
+```
+## Usage
+After installation and configuration, you can run the project as follows:
+
+Running the connector:
+
+
