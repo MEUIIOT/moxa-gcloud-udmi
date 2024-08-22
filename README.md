@@ -133,3 +133,17 @@ By default code run in debug mode. To suppress debug information run code with -
 ```bash
 sudo python3.9 src/main.py -v3
 ```
+## Contributing 
+
+We welcome contributions to the Moxa GCloud UDMI Integration project. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Submit a pull request with a detailed explanation of your changes.
+
+## License
+This project is licensed under the GPLv3.0 License - see the LICENSE file for details.
+
+## Contact
+For more information or questions, please contact the repository maintainer:
+Moxa Europe GmbH - meuiiot@moxa.com
