@@ -222,5 +222,65 @@
         "number_of_registers": 2,
         "format": "float32",
         "units": "Hertz"
+    },
+    "21330": {
+        "dbo_name": "line1_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21332": {
+        "dbo_name": "line2_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21334": {
+        "dbo_name": "line3_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21322": {
+        "dbo_name": "line1_line2_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21324": {
+        "dbo_name": "line2_line3_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21326": {
+        "dbo_name": "line1_line3_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21300": {
+        "dbo_name": "line1_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21302": {
+        "dbo_name": "line2_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21304": {
+        "dbo_name": "line3_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21306": {
+        "dbo_name": "neutral_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
     }
 }

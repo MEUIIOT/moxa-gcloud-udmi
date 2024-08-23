@@ -96,6 +96,36 @@
       },
       "frequency_sensor": {
           "units": "Hertz"
+      },
+      "line1_neutral_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line2_neutral_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line3_neutral_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line1_line2_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line2_line3_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line1_line3_harmonic_distortion_voltage_sensor": {
+          "units": "Percent"
+      },
+      "line1_harmonic_distortion_current_sensor": {
+          "units": "Percent"
+      },
+      "line2_harmonic_distortion_current_sensor": {
+          "units": "Percent"
+      },
+      "line3_harmonic_distortion_current_sensor": {
+          "units": "Percent"
+      },
+      "neutral_harmonic_distortion_current_sensor": {
+          "units": "Percent"
       }
     }
   },
