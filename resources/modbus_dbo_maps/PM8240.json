@@ -205,22 +205,64 @@
         "format": "float32",
         "units": "No-units"
     },
-    "3216": {
+    "2706": {
         "dbo_name": "total_energy_accumulator",
-        "number_of_registers": 4,
-        "format": "int64",
-        "units": "Watt-hours"
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "KiloWatt-hours"
     },
-    "3232": {
+    "2714": {
         "dbo_name": "total_reactive_energy_accumulator",
-        "number_of_registers": 4,
-        "format": "int64",
-        "units": "Volt-amperes-reactive-hours"
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "KiloVolt-amperes-reactive-hours"
     },
     "3110": {
         "dbo_name": "frequency_sensor",
         "number_of_registers": 2,
         "format": "float32",
         "units": "Hertz"
+    },
+    "21330": {
+        "dbo_name": "line1_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21332": {
+        "dbo_name": "line2_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21334": {
+        "dbo_name": "line3_neutral_harmonic_distortion_voltage_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21300": {
+        "dbo_name": "line1_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21302": {
+        "dbo_name": "line2_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21304": {
+        "dbo_name": "line3_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
+    },
+    "21306": {
+        "dbo_name": "neutral_harmonic_distortion_current_sensor",
+        "number_of_registers": 2,
+        "format": "float32",
+        "units": "Percent"
     }
 }
